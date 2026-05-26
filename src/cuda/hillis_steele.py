@@ -3,10 +3,6 @@ from numba import cuda, int32
 
 TAMANHO_BLOCO = 8
 
-# ==========================================
-# HILLIS-STEELE SCAN INCLUSIVO
-# ==========================================
-
 @cuda.jit
 def hillis_steele_kernel(v_in, v_out):
 
@@ -43,9 +39,7 @@ def hillis_steele_kernel(v_in, v_out):
         v_out[tid] = temp[tid]
 
 
-# ==========================================
-# MAIN
-# ==========================================
+
 
 v = np.array([1, 2, 3, 4, 5, 6, 7, 8], dtype=np.int32)
 
