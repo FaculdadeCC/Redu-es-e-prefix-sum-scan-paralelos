@@ -1,4 +1,4 @@
-# Redu-es-e-prefix-sum-scan-paralelos
+
 
 # Redução e Prefix-Sum (Scan) Paralelos em CUDA
 
