@@ -7,9 +7,9 @@
 Repositório dedicado à implementação e análise de algoritmos paralelos em GPU usando **Python e Numba CUDA**. Este projeto explora o desenvolvimento de algoritmos de Redução (Soma, Máximo, Mínimo) e Prefix-Sum/Scan (Hillis-Steele e Blelloch), partindo de abordagens ingênuas até versões otimizadas sem divergência de *warp*.
 
 ## 👥 Integrantes da Equipe
-* **Gustavo** - Implementação CUDA e Otimizações (Fase 2)
-* **Olívier** - [Adicionar responsabilidade]
-* **Ruan** - [Adicionar responsabilidade]
+* **Gustavo** - Implementação CUDA e Otimizações
+* **Olívier** - Relatório SBC e fundamentação teórica
+* **Ruan** - Benchmarks
 
 ---
 
